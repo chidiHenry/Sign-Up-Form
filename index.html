@@ -22,20 +22,46 @@
         </div>
 
         <div id="form">
-            <h3>This is not a real online serve! You know you need something like this in your life to help you realixe your 
+            <h3>This is not a real online serve! You know you need something like this in your life to help you realize your 
                 deepest dreams. Sign up now to get started. <br> You know you want to.</h3>
                 <p><h3>Let's do this!</h3></p>
 
-          <form action="">
-            <div class="names">
-                <label for="firstName">First Name</label>
+          <form id="myForm">
+            <div class="formInput">
+                <label for="firstName">FIRST NAME</label>
                 <input type="text" id="firstName">
-                <label for="lastName">Last Name</label>
+              </div> 
+              <div class="formInput">
+                <label for="lastName">LAST NAME</label>
                 <input type="text" id="lastName">
-            </div>
-
-
+              </div>
+                <div class="formInput">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email">
+                </div>
+                <div class="formInput">
+                  <label for="phone">PHONE NUMBER</label>
+                  <input type="tel" id="phone">
+                </div>
+                <div class="formInput">
+                  <label for="password">PASSWORD</label>
+                  <input type="password" id="password" class="password">
+                </div>
+                <div class="formInput">
+                  <label for="confirmPassword">CONFIRM PASSWORD</label>
+                  <input type="password" id="confirmPassword" class="password">
+                </div>
+                <div class="button">
+                  <button type="submit" id="submit">CREATE ACCOUNT</button>
+                </div>
+                <div id="message">
+                 
+                </div>
+                <div id="accountHolder">
+                  Already Have Account? Log in
+                </div>
           </form>
+
         </div>
     </div>
 </body>

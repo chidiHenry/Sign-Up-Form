@@ -34,12 +34,53 @@
     margin-left: 5vw;
     margin-right: 15vw;
 }
-input{
-    display: flex;
+.formInput{
+    display: inline-block;
+    margin-right: 3vw;
+    border-color: #E5E7EB;
+}
+.formInput:focus{
+    border-color: blue;
+    box-shadow:0lvw;
+}
+.formInput:invalid{
+    border-color: pink;
+}
+label{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size:x-small;
+    font-weight:bolder;
+    margin-top: 3vh;
 }
 h3{
     font-family: 'Roboto', sans-serif;
 }
-label{
-    display: block;
+.button{
+    margin-top: 5vh;
+}
+button{
+    background-color: #596D48;
+    color: white;
+    width: 30vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+#accountHolder{
+ margin-top: 4vh;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.error{
+border: 2px solid red;
+}
+
+.success{
+    background-color:  lightgreen;
+}
+
+#message{
+    display: none;
+    width: fit-content;
+    padding-right:1vw;
 }
