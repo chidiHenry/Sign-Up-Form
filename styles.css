@@ -1,0 +1,45 @@
+#container{
+    display: flex;
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+    
+
+}
+
+.banner{
+    background-image: url(./images/bkImage.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 100vh;
+    
+}
+.logo{
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    position: relative;
+    height: auto;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    margin-left: 5vw;
+    margin-right: 15vw;
+}
+input{
+    display: flex;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+label{
+    display: block;
+}
